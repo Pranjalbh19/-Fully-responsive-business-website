@@ -1,0 +1,258 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+
+
+/*nav bar*/
+html{
+    scroll-behavior: smooth;
+}
+
+.bar{
+    height: 63px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    }
+li{
+display: flex;
+
+}
+.logo{
+margin: 0px;
+display: flex;
+}
+.logo img{
+   
+    width: 53px;
+    margin-top: -10px;
+    margin-left: 1px;
+}
+.bar ul  {
+    display: flex;
+    
+    font-family: 'roboto', serif;
+} 
+.bar ul li a  {
+    margin-left: 77px;
+   color: white;
+   display: block;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.bar ul li a:hover {
+   background-color: white;
+   color : black;
+ 
+ 
+  
+   
+}
+.bar ul li{
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+
+
+.bar:before{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.6;
+}
+#home ::before {
+
+    /* background-color:red; */
+ background-image: url("cat.jpg") ;
+    height: 640px;
+    width: 100%;
+    position: absolute;
+    content: "";
+    z-index: -1;
+    opacity: 0.89;
+    top:0px;
+    left:0px;
+
+  
+}
+#home {
+    
+    display: flex;
+    height: 550px;
+    padding: 3px 203px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+
+}
+#home p{
+  
+color:green
+color(white );
+ text-align: center ;
+ font-size: 1.5rem;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+   
+}
+#home p{
+    color :white;
+    text-align: center;
+    font-size: 1.5 rem;
+    font-family: 'Merriweather', serif;
+}
+
+
+.btn{
+    padding: 6px 20px;
+  background-color: red;
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 23px;
+}
+.services{
+    margin: 34px;
+    display: flex;
+}
+.services.box p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.services .box {
+    padding: 20px;
+    border: 2px solid rgb(238, 10, 10);
+    border-radius: 25px;
+    background-color: #e4e1da;
+ margin-bottom: 19px;
+   margin: 2px 56px;
+    width: 357px;
+  }
+  .box img {
+    margin-left: 20px;
+  }
+
+ .box img {
+    display: block;
+margin: auto;
+    height: 160px;
+
+
+}
+/* .select{
+background-image: url(./home.jpg);
+
+} */ 
+
+
+.services .box img{
+
+    margin: -13px;
+   
+    margin-left: 29px;
+  margin-top: 3px;
+ 
+  size: 122px;
+  width: 157px;
+}
+#clients{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#clients img{
+    
+  height: 120px;
+}
+.client-item{
+    padding: 34px;
+}
+#client-section{
+    position: relative;
+}
+
+#client ::before{
+content: "";
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: .4;
+background-image: url("./veg.jpg");
+}
+#contact{
+position:relative;
+
+}
+#contact ::before{
+content: "";
+opacity: 0.7;
+z-index: -1;
+position :absolute;
+width :100%;
+height :100%;
+background: url(./pizza.jp) no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px ;
+        }
+        #contact-box form{
+            width: 45%;
+    
+        }
+        #contact-box form label{
+           font: size 1.3rem;
+            font-family:'Bree Serif',Arial, Helvetica, sans-serif ;
+        }
+    #contact-box input,
+    #contact-box textarea{
+        width:100%;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.1rem;
+      
+    }
+    
+footer{
+    background-color: black;
+    
+   color :white;
+
+    padding: 9px 20px;
+
+}
+.center{
+    text-align: center;
+}
+.h-primary{
+    font-size: 2.4rem;
+    padding: 12px;
+    margin-top: 40px;
+ 
+
+ }
+ .h-secondary{
+   font-size: 2.2rem;
+   padding: 12px;
+   
+ }
+ 
